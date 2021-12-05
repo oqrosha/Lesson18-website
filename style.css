@@ -1,0 +1,1165 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #f3f3f3;
+  font-family: "Work Sans", sans-serif;
+}
+/* font-family: 'Nunito', sans-serif; */
+header {
+  width: 100%;
+  height: 74px;
+}
+header .header {
+  width: 92%;
+  height: 74px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header .left {
+  width: 508px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+header .header .left .fa-circle {
+  width: 25px;
+  height: 25px;
+  font-size: 25px;
+  margin-right: 8px;
+  color: #eea302;
+  text-align: center;
+  display: inline-block;
+}
+header .header .left .firstp {
+  width: 125px;
+  height: 25px;
+  margin: 0px;
+  display: inline-block;
+  text-align: center;
+  letter-spacing: normal;
+}
+header .header .left .firstp a {
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+  font-weight: 600;
+}
+header .header .left .secondp {
+  width: 55px;
+  height: 19px;
+  margin: 0px;
+  display: inline-block;
+  text-align: center;
+}
+header .header .left .secondp a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+}
+header .header .rigth {
+  width: 380px;
+  height: 74px;
+  display: flex;
+  align-items: center;
+}
+header .header .rigth ul {
+  width: 300px;
+  height: 24px;
+  margin: 0px;
+  margin-left: 100px;
+  padding: 0px;
+}
+header .header .rigth ul li {
+  width: 87px;
+  height: 24px;
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+}
+header .header .rigth ul li a:hover {
+  color: #926402;
+  transition: 0.4s;
+}
+.active {
+  color: #926402;
+}
+header .header .rigth ul .border {
+  border-left: 1px solid black;
+}
+header .header .rigth ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 17px;
+}
+.firstmain {
+  width: 100%;
+  height: 790px;
+}
+.firstmain .banner {
+  width: 92%;
+  height: 800px;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.firstmain .banner .first {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.firstmain .banner .first img {
+  width: 480px;
+  height: 480px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.firstmain .banner .second {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.firstmain .banner .second .center {
+  width: 100%;
+  height: 480px;
+  margin-left: 40px;
+}
+.firstmain .banner .second .top {
+  width: 100%;
+  height: 298px;
+  margin-top: 35px;
+}
+.firstmain .banner .second .top h1 {
+  font-size: 100px;
+  font-weight: 600;
+  margin: 0px;
+  letter-spacing: -0.02em;
+}
+.firstmain .banner .second .top .firstone {
+  font-size: 22px;
+  font-weight: 600;
+  margin-left: 7px;
+}
+.firstmain .banner .second .top .secondone {
+  width: 371px;
+  line-height: 1.6em;
+  font-size: 16px;
+  margin-left: 7px;
+  font-family: "Nunito", sans-serif;
+}
+.firstmain .banner .second .bottom {
+  width: 460px;
+  height: 140px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+}
+.firstmain .banner .second .bottom .firstcircle {
+  width: 140px;
+  height: 140px;
+  background-color: #eea302;
+  border: 1px solid black;
+  border-radius: 50%;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.firstmain .banner .second .bottom .secondcircle {
+  width: 140px;
+  height: 140px;
+  background-color: #ff3b25;
+  border: 1px solid black;
+  border-radius: 50%;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.firstmain .banner .second .bottom .thirdcircle {
+  width: 140px;
+  height: 140px;
+  background-color: #80d8da;
+  border: 1px solid black;
+  border-radius: 50%;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.firstmain .banner .second .bottom .firstcircle p,
+.firstmain .banner .second .bottom .secondcircle p,
+.firstmain .banner .second .bottom .thirdcircle p {
+  width: 87px;
+  height: 31px;
+  font-size: 22px;
+  font-weight: 500;
+  color: black;
+}
+.firstmain .banner .second .bottom .firstcircle:hover,
+.firstmain .banner .second .bottom .secondcircle:hover,
+.firstmain .banner .second .bottom .thirdcircle:hover {
+  background-color: #f3f3f3;
+  border: 1px solid black;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+main .solidline {
+  width: 92%;
+  height: 1px;
+  margin: 0px auto;
+  border-bottom: 1px solid black;
+  opacity: 25%;
+}
+footer {
+  width: 100%;
+  height: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .center {
+  width: 92%;
+  height: 84px;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 120px;
+}
+footer .center .one .phone {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0px;
+}
+footer .center .one .number {
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+  margin: 0px;
+  margin-top: 8px;
+  font-family: "Nunito", sans-serif;
+}
+footer .center .two .email {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0px;
+}
+footer .center .two .a {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0px;
+  margin-top: 8px;
+  font-family: "Nunito", sans-serif;
+}
+footer .center .two .a a {
+  text-decoration: none;
+  color: black;
+}
+footer .center .three .follow {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0px;
+}
+footer .center .three i {
+  font-size: 20px;
+  color: black;
+  margin: 0px;
+  margin-right: 10px;
+  margin-top: 8px;
+}
+footer .center .three a {
+  text-decoration: none;
+}
+footer .center .four .prelastp {
+  font-size: 13px;
+  font-weight: 400;
+  color: black;
+  margin: 0px;
+  margin-top: 8px;
+  font-family: "Nunito", sans-serif;
+}
+footer .center .four .lastp {
+  font-size: 13px;
+  font-weight: 400;
+  margin: 0px;
+  margin-top: 8px;
+  font-family: "Nunito", sans-serif;
+}
+footer .center .four .lastp a {
+  text-decoration: none;
+  color: black;
+}
+.secondmain {
+  width: 100%;
+  height: 1635px;
+}
+.secondmain .threeasides {
+  width: 100%;
+  height: 1633px;
+  margin: 0px auto;
+  display: grid;
+  grid-template-rows: 1fr 0.55fr 0.55fr;
+}
+.secondmain .threeasides .first {
+  width: 92%;
+  height: 100%;
+  margin: 0px auto;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+.secondmain .threeasides .first .border {
+  width: 978px;
+  height: 100%;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 8px;
+}
+.secondmain .threeasides .first .twosections1 {
+  width: 489px;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 0.31fr 1fr;
+}
+.secondmain .threeasides .first .twosections1 .firstinto {
+  width: 489px;
+  height: 183px;
+  display: flex;
+  align-items: center;
+}
+.secondmain .threeasides .first .twosections1 .firstinto .firstdiv {
+  width: 489px;
+  height: 97px;
+  display: flex;
+  align-items: flex-end;
+}
+.secondmain .threeasides .first .twosections1 .firstinto .firstdiv h1 {
+  width: 485px;
+  height: 49px;
+  font-size: 42px;
+  font-weight: 600;
+  margin: 0px;
+}
+.secondmain .threeasides .first .twosections1 .secondinto {
+  width: 489px;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.secondmain .threeasides .first .twosections1 .secondinto .seconddiv {
+  width: 489px;
+  height: 124px;
+  display: flex;
+  align-items: center;
+}
+.secondmain .threeasides .first .twosections1 .secondinto .seconddiv h2 {
+  width: 100px;
+  height: 60px;
+  font-size: 26px;
+  font-weight: 600;
+  margin: 0px;
+}
+.secondmain .threeasides .first .twosections2 {
+  width: 489px;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 0.31fr 1fr;
+}
+.secondmain .threeasides .first .twosections2 .thirdinto {
+  width: 489px;
+  height: 183px;
+}
+.secondmain .threeasides .first .twosections2 .forthinto {
+  width: 489px;
+  height: 546.59px;
+  margin: 0px;
+  margin-top: 32px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.secondmain .threeasides .first .twosections2 .forthinto .forthdiv .h3p {
+  font-family: "Nunito", sans-serif;
+  margin: 0px;
+  margin-right: 18.5px;
+  font-size: 16px;
+  font-weight: 300;
+  display: inline-block;
+}
+.secondmain .threeasides .first .twosections2 .forthinto .forthdiv .h3 {
+  margin: 0px;
+  width: 100%;
+  height: 21px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.secondmain
+  .threeasides
+  .first
+  .twosections2
+  .forthinto
+  .forthdiv
+  .goingcenter {
+  width: 455.73px;
+  height: 102.4px;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0px;
+  margin-top: 8px;
+}
+.secondmain .threeasides .first .twosections2 .forthinto .forthdiv .justp {
+  width: 330px;
+  height: 102.4px;
+  margin: 0px;
+  line-height: 1.6em;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Nunito", sans-serif;
+}
+.secondmain .threeasides .first .twosections2 .forthinto .fifthdiv .h3p {
+  font-family: "Nunito", sans-serif;
+  margin: 0px;
+  margin-right: 35px;
+  font-size: 16px;
+  font-weight: 300;
+  display: inline-block;
+}
+.secondmain .threeasides .first .twosections2 .forthinto .fifthdiv .h3 {
+  margin: 0px;
+  width: 100%;
+  height: 21px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.secondmain
+  .threeasides
+  .first
+  .twosections2
+  .forthinto
+  .fifthdiv
+  .goingcenter {
+  width: 455.73px;
+  height: 102.4px;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0px;
+  margin-top: 8px;
+}
+.secondmain .threeasides .first .twosections2 .forthinto .fifthdiv .justp {
+  width: 330px;
+  height: 102.4px;
+  margin: 0px;
+  line-height: 1.6em;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Nunito", sans-serif;
+}
+.secondmain .threeasides .first .twosections2 .forthinto .sixthdiv .h3p {
+  font-family: "Nunito", sans-serif;
+  margin: 0px;
+  margin-right: 35px;
+  font-size: 16px;
+  font-weight: 300;
+  display: inline-block;
+}
+.secondmain .threeasides .first .twosections2 .forthinto .sixthdiv .h3 {
+  margin: 0px;
+  width: 100%;
+  height: 21px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.secondmain
+  .threeasides
+  .first
+  .twosections2
+  .forthinto
+  .sixthdiv
+  .goingcenter {
+  width: 455.73px;
+  height: 102.4px;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0px;
+  margin-top: 8px;
+}
+.secondmain .threeasides .first .twosections2 .forthinto .sixthdiv .justp {
+  width: 330px;
+  height: 102.4px;
+  margin: 0px;
+  line-height: 1.6em;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Nunito", sans-serif;
+}
+.secondmain .threeasides .second {
+  width: 92%;
+  height: 100%;
+  margin: 0px auto;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+.secondmain .threeasides .second .border {
+  width: 978px;
+  height: 300px;
+  margin: 0px auto;
+  margin-top: 72px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 8px;
+}
+.secondmain .threeasides .second .border .middleone1 {
+  height: 300px;
+  margin-top: 5px;
+}
+.secondmain .threeasides .second .border .middleone1 h2 {
+  width: 100px;
+  height: 60px;
+  font-size: 26px;
+  font-weight: 600;
+  margin: 0px;
+}
+.secondmain .threeasides .second .border .middleone2 {
+  height: 300px;
+  margin-top: 13.5px;
+}
+.secondmain .threeasides .second .border .middleone2 .middlediv1 {
+  width: 456px;
+}
+.secondmain .threeasides .second .border .middleone2 .middlediv1 .forh2 {
+  width: 330px;
+  height: 42px;
+  display: flex;
+  justify-content: space-around;
+}
+.secondmain
+  .threeasides
+  .second
+  .border
+  .middleone2
+  .middlediv1
+  .forh2
+  .firsth2 {
+  margin: 0px;
+  width: 200px;
+  height: 42px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.secondmain
+  .threeasides
+  .second
+  .border
+  .middleone2
+  .middlediv1
+  .forh2
+  .firstp {
+  font-family: "Nunito", sans-serif;
+  margin: 0px;
+  margin-right: 35px;
+  font-size: 16px;
+  font-weight: 300;
+  display: inline-block;
+}
+.secondmain .threeasides .second .border .middleone2 .middlediv1 .firstpdiv {
+  width: 455.73px;
+  height: 51.19px;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0px;
+  margin-top: 13px;
+  margin-left: 23px;
+}
+.secondmain .threeasides .second .border .middleone2 .middlediv1 .justp {
+  width: 352px;
+  height: 51.19px;
+  margin: 0px;
+  line-height: 1.6em;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Nunito", sans-serif;
+}
+.secondmain .threeasides .second .border .middleone2 .middlediv2 {
+  width: 456px;
+  margin-top: 48px;
+}
+.secondmain .threeasides .second .border .middleone2 .middlediv2 .forh2 {
+  width: 330px;
+  height: 42px;
+  display: flex;
+  justify-content: space-around;
+}
+.secondmain
+  .threeasides
+  .second
+  .border
+  .middleone2
+  .middlediv2
+  .forh2
+  .secondh2 {
+  margin: 0px;
+  width: 200px;
+  height: 42px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.secondmain
+  .threeasides
+  .second
+  .border
+  .middleone2
+  .middlediv2
+  .forh2
+  .secondp {
+  font-family: "Nunito", sans-serif;
+  margin: 0px;
+  margin-right: 35px;
+  font-size: 16px;
+  font-weight: 300;
+  display: inline-block;
+}
+.secondmain .threeasides .second .border .middleone2 .middlediv2 .secondpdiv {
+  width: 455.73px;
+  height: 51.19px;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0px;
+  margin-top: 13px;
+  margin-left: 23px;
+}
+.secondmain .threeasides .second .border .middleone2 .middlediv2 .justp {
+  width: 352px;
+  height: 51.19px;
+  margin: 0px;
+  line-height: 1.6em;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Nunito", sans-serif;
+}
+.secondmain .threeasides .third {
+  width: 92%;
+  height: 100%;
+  margin: 0px auto;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+.secondmain .threeasides .third .border {
+  width: 978px;
+  height: 300px;
+  margin: 0px auto;
+  margin-top: 72px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 8px;
+}
+.secondmain .threeasides .third .border .middleone1 {
+  height: 300px;
+  margin-top: 5px;
+}
+.secondmain .threeasides .third .border .middleone1 h2 {
+  width: 150px;
+  height: 60px;
+  font-size: 26px;
+  font-weight: 600;
+  margin: 0px;
+}
+.secondmain .threeasides .third .border .middleone2 {
+  width: 475px;
+  height: 300px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 7.5px;
+}
+.secondmain .threeasides .third .border .middleone2 .centered {
+  width: 344px;
+  height: 231px;
+}
+.secondmain .threeasides .third .border .middleone2 .centered ul {
+  margin: 0px 0px 0px 8px;
+  padding: 0px 0px 0px 5.8px;
+  font-size: 16px;
+  font-family: "Nunito", sans-serif;
+}
+.secondmain .threeasides .third .border .middleone2 .centered ul li {
+  width: 323.2px;
+  height: 56.4px;
+  line-height: 1.8em;
+  font-size: 16px;
+  font-weight: 300;
+}
+.thirdmain {
+  width: 100%;
+  height: 1650px;
+}
+.thirdmain .projects {
+  width: 980px;
+  height: 1648px;
+  margin: 0px auto;
+  display: grid;
+  grid-template-rows: 647px 479px 522px;
+}
+.thirdmain .projects .n1 {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.thirdmain .projects .n1 .project1 {
+  width: 490px;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 0.31fr 1fr;
+}
+.thirdmain .projects .n1 .project1 .top {
+  width: 490px;
+  height: 242px;
+  display: flex;
+  align-items: flex-start;
+}
+.thirdmain .projects .n1 .project1 .top .div1 {
+  width: 490px;
+  height: 141px;
+  display: flex;
+  align-items: flex-end;
+}
+.thirdmain .projects .n1 .project1 .top .div1 h1 {
+  width: 485px;
+  height: 49px;
+  font-size: 42px;
+  font-weight: 600;
+  margin: 0px;
+}
+.thirdmain .projects .n1 .project1 .bottom {
+  width: 100%;
+  height: 100%;
+}
+.thirdmain .projects .n1 .project1 .bottom h2 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 0px;
+}
+.thirdmain .projects .n1 .project1 .bottom p {
+  width: 422px;
+  height: 128px;
+  line-height: 1.6em;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Nunito", sans-serif;
+}
+.thirdmain .projects .n1 .project2 {
+  width: 490px;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 0.31fr 1fr;
+}
+.thirdmain .projects .n1 .project2 .top {
+  width: 490px;
+  height: 242px;
+}
+.thirdmain .projects .n1 .project2 .bottom {
+  width: 100%;
+  height: 100%;
+}
+.thirdmain .projects .n1 .project2 .bottom img {
+  width: 491px;
+  height: 331px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+.thirdmain .projects .n2 {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.thirdmain .projects .n2 .project3 {
+  width: 100%;
+  height: 100%;
+}
+.thirdmain .projects .n2 .project3 h2 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 70px;
+}
+.thirdmain .projects .n2 .project3 p {
+  width: 422px;
+  height: 128px;
+  line-height: 1.6em;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Nunito", sans-serif;
+}
+.thirdmain .projects .n2 .project4 {
+  width: 100%;
+  height: 100%;
+}
+.thirdmain .projects .n2 .project4 img {
+  width: 491px;
+  height: 331px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  margin-top: 70px;
+}
+.thirdmain .projects .n3 {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.thirdmain .projects .n3 .project5 {
+  width: 100%;
+  height: 100%;
+}
+.thirdmain .projects .n3 .project5 h2 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 68px;
+}
+.thirdmain .projects .n3 .project5 p {
+  width: 422px;
+  height: 128px;
+  line-height: 1.6em;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Nunito", sans-serif;
+}
+.thirdmain .projects .n3 .project6 {
+  width: 100%;
+  height: 100%;
+}
+.thirdmain .projects .n3 .project6 img {
+  width: 491px;
+  height: 331px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  margin-top: 68px;
+}
+.forthmain {
+  width: 92%;
+  height: 740px;
+  margin: 0px auto;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+.forthmain .twoasides {
+  width: 980px;
+  height: 100%;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: 497px 483px;
+}
+.forthmain .twoasides .contact1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.forthmain .twoasides .contact1 .first {
+  width: 350px;
+  height: 240px;
+  margin-top: 93px;
+}
+.forthmain .twoasides .contact1 .first h1 {
+  width: 350px;
+  height: 49px;
+  font-size: 42px;
+  margin: 0px;
+}
+.forthmain .twoasides .contact1 .first .text {
+  width: 350px;
+  height: 26px;
+  line-height: 1.6em;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Nunito", sans-serif;
+  margin: 0px;
+  margin-top: 7px;
+}
+.forthmain .twoasides .contact1 .first .phone,
+.forthmain .twoasides .contact1 .first .email {
+  width: 300px;
+  height: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0px;
+  margin-top: 28.5px;
+}
+.forthmain .twoasides .contact1 .first .email {
+  margin-top: 18px;
+  margin-bottom: 6px;
+}
+.forthmain .twoasides .contact1 .first .number {
+  width: 300px;
+  height: 23px;
+  font-size: 16px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+  margin: 0px;
+  margin-top: 6px;
+}
+.forthmain .twoasides .contact1 .first .aclass {
+  text-decoration: none;
+  color: black;
+  width: 300px;
+  height: 19px;
+  line-height: 1.4em;
+  font-size: 16px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+}
+.forthmain .twoasides .contact2 {
+  width: 483px;
+  height: 685px;
+  display: flex;
+  align-items: center;
+}
+#forms {
+  width: 479px;
+  height: 461px;
+  display: grid;
+  grid-template-rows: 70px 70px 166px;
+  grid-row-gap: 20px;
+}
+.forthmain .twoasides .contact2 form .firsttwolabel {
+  width: 450px;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.forthmain .twoasides .contact2 form .firsttwolabel .labelN1,
+.forthmain .twoasides .contact2 form .firsttwolabel .labelN2 {
+  width: 215px;
+  height: 70px;
+}
+.forthmain .twoasides .contact2 form .firsttwolabel .labelN1 label,
+.forthmain .twoasides .contact2 form .firsttwolabel .labelN2 label {
+  width: 215px;
+  height: 16px;
+  font-size: 16px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+  display: inline-block;
+  margin: 0px 0px 10px;
+  padding: 0px 20px 0px 2px;
+}
+.forthmain .twoasides .contact2 form .firsttwolabel .labelN1 .input1,
+.forthmain .twoasides .contact2 form .firsttwolabel .labelN2 .input2 {
+  width: 215px;
+  height: 45px;
+}
+.forthmain .twoasides .contact2 form .firsttwolabel .labelN1 .input1 input,
+.forthmain .twoasides .contact2 form .firsttwolabel .labelN2 .input2 input {
+  width: 215px;
+  height: 45px;
+  font-size: 18px;
+  background-color: transparent;
+  border: 1px solid black;
+  margin: 0px;
+  padding: 3px 3px 3px 7px;
+  box-sizing: border-box;
+}
+.forthmain
+  .twoasides
+  .contact2
+  form
+  .firsttwolabel
+  .labelN1
+  .input1
+  input:focus,
+.forthmain
+  .twoasides
+  .contact2
+  form
+  .firsttwolabel
+  .labelN2
+  .input2
+  input:focus {
+  outline: none;
+  border: 2px solid black;
+}
+.forthmain
+  .twoasides
+  .contact2
+  form
+  .firsttwolabel
+  .labelN1
+  .input1
+  input:hover,
+.forthmain
+  .twoasides
+  .contact2
+  form
+  .firsttwolabel
+  .labelN2
+  .input2
+  input:hover {
+  border: 2px solid black;
+}
+.forthmain .twoasides .contact2 form .secondtwolabel {
+  width: 450px;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.forthmain .twoasides .contact2 form .secondtwolabel .labelN1,
+.forthmain .twoasides .contact2 form .secondtwolabel .labelN2 {
+  width: 215px;
+  height: 70px;
+}
+.forthmain .twoasides .contact2 form .secondtwolabel .labelN1 label,
+.forthmain .twoasides .contact2 form .secondtwolabel .labelN2 label {
+  width: 215px;
+  height: 16px;
+  font-size: 16px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+  display: inline-block;
+  margin: 0px 0px 10px;
+  padding: 0px 20px 0px 2px;
+}
+.forthmain .twoasides .contact2 form .secondtwolabel .labelN1 .input1,
+.forthmain .twoasides .contact2 form .secondtwolabel .labelN2 .input2 {
+  width: 215px;
+  height: 45px;
+}
+.forthmain .twoasides .contact2 form .secondtwolabel .labelN1 .input1 input,
+.forthmain .twoasides .contact2 form .secondtwolabel .labelN2 .input2 input {
+  width: 215px;
+  height: 45px;
+  font-size: 18px;
+  background-color: transparent;
+  border: 1px solid black;
+  margin: 0px;
+  padding: 3px 3px 3px 7px;
+  box-sizing: border-box;
+}
+.forthmain
+  .twoasides
+  .contact2
+  form
+  .secondtwolabel
+  .labelN1
+  .input1
+  input:focus,
+.forthmain
+  .twoasides
+  .contact2
+  form
+  .secondtwolabel
+  .labelN2
+  .input2
+  input:focus {
+  outline: none;
+  border: 2px solid black;
+}
+.forthmain
+  .twoasides
+  .contact2
+  form
+  .secondtwolabel
+  .labelN1
+  .input1
+  input:hover,
+.forthmain
+  .twoasides
+  .contact2
+  form
+  .firsttwolabel
+  .labelN2
+  .input2
+  input:hover {
+  border: 2px solid black;
+}
+.forthmain .twoasides .contact2 form .textareaandcircle {
+  width: 450px;
+  height: 166px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.forthmain .twoasides .contact2 form .textareaandcircle .textarea {
+  width: 300px;
+  height: 166px;
+}
+.forthmain .twoasides .contact2 form .textareaandcircle .textarea label {
+  width: 300px;
+  height: 16px;
+  font-size: 16px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+  display: inline-block;
+  margin: 0px 0px 10px;
+  padding: 0px 20px 0px 2px;
+}
+.forthmain .twoasides .contact2 form .textareaandcircle .textarea .input {
+  min-width: 300px;
+  min-height: 141px;
+  max-width: 300px;
+  max-height: 141px;
+}
+.forthmain
+  .twoasides
+  .contact2
+  form
+  .textareaandcircle
+  .textarea
+  .input
+  textarea {
+  min-width: 300px;
+  min-height: 141px;
+  max-width: 300px;
+  max-height: 141px;
+  font-size: 18px;
+  background-color: transparent;
+  border: 1px solid black;
+  margin: 0px;
+  padding: 12px 10px 3px 7px;
+  box-sizing: border-box;
+}
+.forthmain
+  .twoasides
+  .contact2
+  form
+  .textareaandcircle
+  .textarea
+  .input
+  textarea:focus {
+  outline: none;
+  border: 2px solid black;
+}
+.forthmain
+  .twoasides
+  .contact2
+  form
+  .textareaandcircle
+  .textarea
+  .input
+  textarea:hover {
+  border: 2px solid black;
+}
+.forthmain .twoasides .contact2 form .textareaandcircle .circle {
+  width: 140px;
+  height: 140px;
+}
+.forthmain .twoasides .contact2 form .textareaandcircle .circle .lastcircle {
+  width: 140px;
+  height: 140px;
+  background-color: #eea302;
+  border: 1px solid black;
+  border-radius: 50%;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+.forthmain .twoasides .contact2 form .textareaandcircle .circle .lastcircle p {
+  width: 87px;
+  height: 31px;
+  font-size: 22px;
+  font-weight: 500;
+  color: black;
+}
