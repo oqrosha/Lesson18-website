@@ -84,7 +84,7 @@ header .header .rigth ul li a:hover {
   transition: 0.4s;
 }
 .active {
-  color: #926402;
+  color: #926402 !important;
 }
 header .header .rigth ul .border {
   border-left: 1px solid black;
